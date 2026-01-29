@@ -1,0 +1,1 @@
+{0: 'bacon', 1: 'banana', 2: 'butter', 3: 'cheese', 4: 'chicken', 5: 'cucumber', 6: 'milk', 7: 'tomato', 8: 'yogurt'}
