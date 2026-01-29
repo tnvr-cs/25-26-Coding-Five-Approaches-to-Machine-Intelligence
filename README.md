@@ -81,8 +81,6 @@ DataSet: https://www.kaggle.com/datasets/liamboyd1/multi-class-food-image-datase
 * Dairy: Milk, Cheese, Butter
 * Meat: Chicken, Bacon 
 * This was used as it was all my laptop could handle 
-
-
 Structural Compatibility: This dataset is pre-organised into labelled subdirectories (e.g., /train/apple, /train/banana). This folder structure is natively compatible with the TensorFlow image_dataset_from_directory function, allowing for efficient data ingestion without complex manual labelling.
 
 
@@ -94,11 +92,7 @@ Scalability: The images are of sufficient resolution to be resized to the target
 
 2. Rationale for Machine Learning Technique
 Selected Approach: Convolutional Neural Network (CNN)
-To solve the image classification problem, I implemented a Convolutional Neural Network (CNN) using TensorFlow and Keras.
-Why CNN instead of standard Machine Learning? While traditional algorithms (like Support Vector Machines) can classify images, they require manual feature extraction and often fail when the object is shifted or rotated. A CNN was chosen because of its property of Spatial Invariance.
-* Filters: The CNN uses sliding filters (kernels) to detect features like edges, textures, and curves regardless of where they appear in the image.
-
-
+To solve the image classification problem, I implemented a Convolutional Neural Network (CNN) using TensorFlow and Keras. A CNN was chosen because of its property of Spatial Invariance and Filters: The CNN uses sliding filters to detect features like edges, textures, and curves regardless of where they appear in the image.
 5. Conclusion
 It worked better than expected. When Shown images that weren't in training data it gave a very solid guess. For example when shown an apple it guessed a tomato which is a very reasonable guess. It did however take about  2 hours to run the training data on my laptop. 
 ________________
@@ -126,4 +120,11 @@ Launch 2526 Coding Five - Task 2.py via Python Terminal
 Task 3 
 pip install tensorflow pillow numpy
 Clone The Repository and ensure grocery_model.h5 and class_indices.txt are  present 
-Launch 2526 Coding Five - Task 3.py via Python Terminal .
+Launch 2526 Coding Five - Task 3.py via Python Terminal .#
+
+
+
+
+
+
+Git Link: https://github.com/tnvr-cs/25-26-Coding-Five-Approaches-to-Machine-Intelligence/tree/main
