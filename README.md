@@ -120,7 +120,8 @@ Launch 2526 Coding Five - Task 2.py via Python Terminal
 Task 3 
 pip install tensorflow pillow numpy
 Clone The Repository and ensure grocery_model.h5 and class_indices.txt are  present 
-Launch 2526 Coding Five - Task 3.py via Python Terminal .#
+Launch 2526 Coding Five - Task 3.py via Python Terminal 
+The dataset did have some issues so using AI i created a script called clean.py to loop through my training data and delete any files that was unusable to corrupt to allow my training to complete and .#
 
 
 
